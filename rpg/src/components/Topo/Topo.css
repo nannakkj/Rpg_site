@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+.header-container{
+  @apply bg-[var(--primary)] w-full h-26 items-center flex justify-evenly text-3xl text-[var(--text)] max-lg:text-2xl
+}
+
+#header-topico{
+    @apply cursor-pointer 
+}
+
+.header-topicos{
+    @apply justify-evenly w-full max-sm:text-lg sm:flex
+}
+
+.header-container h1{
+  @apply hidden max-sm:flex text-4xl
+}
